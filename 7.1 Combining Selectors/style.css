@@ -1,0 +1,19 @@
+/* Write your code here: */
+
+/* GROUPING STYLING */
+h1,h2{color: blueviolet;}
+
+/* Styling by child of an element [THIS ONLY APPLIES TO A DIRECT CHILD OF LEFT SIDE]*/
+
+div.box > p{
+    color: firebrick;
+}
+
+/* DESCENDANT = APPLY to a descendant of left side*/
+.box li {color: blue;}
+
+/*CHAINING : APPLAY where ALL selectors are true*/
+
+li.done{color: seagreen;}
+
+ul p.done {font-size: 0.5rem;}
