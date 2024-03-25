@@ -19,3 +19,43 @@ footer {
   color: midnightblue;
 }
 
+@media (min-width: 319px) {
+  h1{
+    font-size:3.5rem;
+    text-align: center;
+  }
+
+  h1 span {
+    color: #191970;
+  }
+
+  img{
+    display: block;
+    margin: auto;
+    max-width:600px;
+    max-height: 3350px;
+    width:100%;
+  }
+
+  .logo{
+    float: left;
+    width:6rem;
+    height: auto;
+  }  
+
+}
+@media (min-width: 800px) {
+
+  h1{text-align: left; font-size: 5rem; width:800px;}
+
+  .card{width:40%}
+
+  .left{float:left;}
+
+  .right{float:right;}
+
+  img{width: 400px;}
+
+  /* div.card p{float: right;} */
+
+}
